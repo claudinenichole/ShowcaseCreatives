@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+div {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.main {
+    width: 158px;
+    height: 598px;
+    border: 1px solid #000000;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#backgroundImage, #logoImage, #yPredictLogo, #guyImage, #copyImage1, #copyImage2, #copyImage3, #copyImage4, #copyImage5, #ctaImage {
+    width: 160px;
+    height: 600px;
+    top: -1px;
+    left: -1px;
+    position: absolute;
+    opacity: 0;
+}
+
+#logoContainer {
+    width: 85px;
+    height: 176px;
+    top: 153px;
+    left: 30px;
+    overflow: hidden;
+}
+
+#yPredictLogo {
+    top: 40px;
+    left: -31px;
+    opacity: 1;
+}
+
+#guyImage {
+    left: 300px;
+    opacity: 1;
+}
+
+#kContainer {
+    width: 50px;
+    height: 163px;
+    top: 0px;
+    left: 48px;
+    overflow: hidden;
+}
+
+#copyImage4 {
+    left: 5px;
+}
+
+#ribbonContainer {
+    width: 50px;
+    height: 163px;
+    top: 0px;
+    left: 100px;
+    overflow: hidden;
+}
+
+#copyImage5 {
+    left: -135px;
+}
+
+.transition {
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -ms-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+#clickArea {
+    position: absolute;
+    top: -1px;
+    left: -1px;    
+}
